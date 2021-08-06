@@ -8,7 +8,7 @@
                     {% if site.lazyimages == "enabled" %}
                         <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if author.avatar contains "://" %}{{ author.avatar }}{% else %}{{ author.avatar }}{% endif %}" alt="{{ author.name }}">
                     {% else %}
-                        <img class="img-fluid" src="{% if author.avatar contains "://" %}{{ author.avatar }}{% else %}{{ author.avatar }}{% endif %}" alt="{{ author.name }}"> 
+                        <img class="img-fluid" src="{% if author.avatar contains "://" %}{{ author.avatar }}{% else %}{{ site.baseurl }}{{ author.avatar }}{% endif %}" alt="{{ author.name }}"> 
                     {% endif %}
 
                 {% endif %}
