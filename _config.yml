@@ -8,7 +8,7 @@ nerating and analytical technique in data-driven research to facilitate new disc
 </p>"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: 
+baseurl: 'jef.works/genomic-data-visualization'
 google_analytics: ''
 include: ["_pages"]
 permalink: /:title/
