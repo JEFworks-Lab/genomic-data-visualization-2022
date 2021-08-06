@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Genomic Data Visualization</title>
+    <description>Welcome to the Course Website for 000.000 Genomic Data Visualization! &lt;p&gt; As the primary mode through which analysts and audience members alike consume data, data visualization remains an important hypothesis generating and analytical technique in data-driven research to facilitate new discoveries. However, if done poorly, data visualization can also mislead, bias, and slow down progress. This hands-on course will cover the principles of perception and cognition relevant for data visualization and apply these principles to genomic data, including large-scale single-cell and spatially-resolved omics datasets, using the R statistical programming language. Students will be expected to complete class readings, create weekly data visualizations as homework assignments, and make a major class presentation. &lt;/p&gt;</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 05 Aug 2021 20:04:34 -0400</pubDate>
+    <lastBuildDate>Thu, 05 Aug 2021 20:04:34 -0400</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Sample Homework Submission</title>
+        <description>&lt;p&gt;I plotted a single point at (1,1) and made the title my name using base R graphics.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;# Provide the code
+plot(1,1, main='Prof. Jean Fan')
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+        <pubDate>Fri, 09 Jul 2021 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/2021/07/09/sample-homework-submission/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/07/09/sample-homework-submission/</guid>
+        
+        
+        <category>HW1</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="icon" href="/assets/images/logo.png">
+
+	<title>Lesson 0: Welcome and Introductions | Genomic Data Visualization</title>
+
+	<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Lesson 0: Welcome and Introductions | Genomic Data Visualization</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Lesson 0: Welcome and Introductions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="0. Learning objectives" />
+<meta property="og:description" content="0. Learning objectives" />
+<link rel="canonical" href="http://localhost:4000/course/0-welcome-and-introductions/" />
+<meta property="og:url" content="http://localhost:4000/course/0-welcome-and-introductions/" />
+<meta property="og:site_name" content="Genomic Data Visualization" />
+<meta property="og:image" content="http://localhost:4000/assets/images/7.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-05T20:04:34-04:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/course/0-welcome-and-introductions/","headline":"Lesson 0: Welcome and Introductions","dateModified":"2021-08-05T20:04:34-04:00","datePublished":"2021-08-05T20:04:34-04:00","image":"http://localhost:4000/assets/images/7.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/course/0-welcome-and-introductions/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"description":"0. Learning objectives","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	<link href="/assets/css/screen.css" rel="stylesheet">
+
+	<link href="/assets/css/main.css" rel="stylesheet">
+
+	<script src="/assets/js/jquery.min.js"></script>
+
+    </head>
+
+    
+
+    
+    <body class="layout-post">
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+	    <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+
+	<!-- Begin Menu Navigation
+	     ================================================== -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+	    <div class="container pr-0">
+
+		<!-- Begin Logo -->
+		<a class="navbar-brand" href="/">
+		    <img src="/assets/images/logo.png" alt="Genomic Data Visualization">
+		    Genomic Data Visualization
+		</a>
+		<!-- End Logo -->
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarMediumish">
+
+		    <!-- Begin Menu -->
+
+		    <ul class="navbar-nav ml-auto">
+
+			
+			    <li class="nav-item">
+				
+				<a class="nav-link" href="/index.html"><i class="fas fa-home"></i> Home</a>
+			    </li>
+
+			    <li class="nav-item">
+				<a class="nav-link" href="/about"><i class="fas fa-user-graduate"></i> About</a>
+			    </li>
+
+			    <li class="nav-item">
+				<a class="nav-link" href="/course"><i class="fas fa-book"></i> Course</a>
+			    </li>
+
+			    <li class="nav-item">
+				<a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> View on Github</a>
+			    </li>
+
+			    <script src="/assets/js/lunr.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
+
+		    </ul>
+
+		    <!-- End Menu -->
+
+		</div>
+
+	    </div>
+	</nav>
+	<!-- End Navigation
+	     ================================================== -->
+
+	<div class="site-content">
+
+	    <div class="container">
+
+		<!-- Site Title
+		<div class="mainheading">
+		    <p class="lead">
+			Welcome to the Course Website for 000.000 Genomic Data Visualization! <p> As the primary mode through which analysts and audience members alike consume data, data visualization remains an important hypothesis generating and analytical technique in data-driven research to facilitate new discoveries. However, if done poorly, data visualization can also mislead, bias, and slow down progress. This hands-on course will cover the principles of perception and cognition relevant for data visualization and apply these principles to genomic data, including large-scale single-cell and spatially-resolved omics datasets, using the R statistical programming language. Students will be expected to complete class readings, create weekly data visualizations as homework assignments, and make a major class presentation. </p>
+		    </p>
+		</div>
+		     ================================================== -->
+
+		<!-- Content
+		     ================================================== -->
+		<div class="main-content">
+		    <!-- Begin Article
+================================================== -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post -->
+        
+
+        <div class="col-md-12 flex-first flex-md-unordered">
+            <div class="mainheading">
+                <!-- Post Title -->
+                <h1 class="posttitle">Lesson 0: Welcome and Introductions</h1>
+		
+                <!-- Author Box -->
+                
+		<hr>
+
+            </div>
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="/assets/images/7.jpg" alt="Lesson 0: Welcome and Introductions" width=100%>
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+                <!-- Toc if any -->
+                
+                <!-- End Toc -->
+                <h1 id="0-learning-objectives">0. Learning objectives</h1>
+
+<p>By the end of this lesson, you should understand what to expect from the course and what is expected of you.</p>
+
+<h1 id="1-welcome">1. Welcome</h1>
+
+<h2 id="10-pre-requisites">1.0. Pre-requisites</h2>
+
+<ul>
+  <li>You have access to a laptop that you can bring to class where you are able to download data and install software (required for in-class participation)</li>
+  <li>You know basic biology
+    <ul>
+      <li>DNA, RNA, protein</li>
+      <li>Cells, tissues, organisms</li>
+    </ul>
+  </li>
+  <li>You know basic statistics
+    <ul>
+      <li>Estimates, standard errors, distributions</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="11-course-learning-objectives">1.1. Course learning objectives</h2>
+
+<p>By the end of this course, you will be able to:</p>
+
+<ul>
+  <li>Critique a data visualization, distinguish a good from a bad data visualization, and devise techniques to improve bad data visualizations</li>
+  <li>Design and produce data visualizations for large multi-omic datasets</li>
+  <li>Become more comfortable with programming in R, version control using Github, and other programming basics</li>
+</ul>
+
+<h2 id="12-course-logistics">1.2. Course logistics</h2>
+
+<p>8 week course, 2 classes per week, 1 homework assignment after each class, 1 final presentation</p>
+
+<h3 id="120-grading">1.2.0. Grading</h3>
+
+<p>We believe the primary purpose of an education is to train you to be able to think for yourself and initiate and complete your own projects. We are super excited to talk to you about ideas, work out solutions with you, and help you to figure out how to produce professional data visualizations. We aim to give you a grade that best reflects our assessment of your effort and learning with:</p>
+<ul>
+  <li>A == Excellent == 90%+</li>
+  <li>B == Passing == 80%+</li>
+  <li>C == Needs improvement == 70%+</li>
+</ul>
+
+<p>We rarely give out grades below a C and if you consistently submit work, participate in discussions, and do your best you are very likely to get an A or a B in the course.</p>
+
+<p>Your final grade will be weighted as:</p>
+<ul>
+  <li>Homework: 50% (5% per assignment)</li>
+  <li>Prepardness/attendance: 30%</li>
+  <li>Final presentation: 20%</li>
+  <li>2 extra credit assignment opportunities to boost your grade up to 2%</li>
+</ul>
+
+<h3 id="121-assignments">1.2.1. Assignments</h3>
+
+<p>If you submit each assignment, it is your own work, and it meets a basic level of completeness and effort you will receive up to 100% for that assignment. If you submit an assignment but it doesn’t meet basic completeness and effort you will receive 50%. If you do not submit an assignment at all you will receive 0%. A 10% deduction will be made for every day an assignment is submitted late up to 3 days, after which the assignment will be no longer accepted and you will receive a 0%.</p>
+
+<p>We will be turning in all data visualization assignments electronically through Github pull requests. Assignments must be submitted by midnight (electronic timestamp) on the due date for full credit.</p>
+
+<p>The grades will be broken down according to the following characterization of your data visualization:</p>
+<ul>
+  <li>Did you address the question? (30%)</li>
+  <li>Did you use appropriate visualization techniques? (30%)</li>
+  <li>Was your write-up clear and precise? (30%)</li>
+  <li>Was your code reproducible? (10%)</li>
+</ul>
+
+<p>Final presentation grades will be determined based on peer evaluation.</p>
+
+            </div>
+
+            <!-- Rating -->
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime=""></time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            
+            <a class="next d-block col-md-6 text-lg-right" href="//course/1-data-visualization-theory/">Lesson 1: Data Visualization Theory &raquo; </a>
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+
+    </div>
+</div>
+<!-- End Article
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+
+		</div>
+
+	    </div>
+
+	    <!-- Begin Footer
+		 ================================================== -->
+	    <footer class="footer">
+		<div class="container">
+		    <div class="row">
+			<div class="col-md-6 col-sm-6 text-center text-lg-left">
+			    Copyright © 2021 Genomic Data Visualization 
+			</div>
+			<div class="col-md-6 col-sm-6 text-center text-lg-right">    
+			    Adapted from the <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> 
+			</div>
+		    </div>
+		</div>
+	    </footer>
+	    <!-- End Footer
+		 ================================================== -->
+
+	</div> <!-- /.site-content -->
+
+	<!-- Scripts
+	     ================================================== -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+	<script src="/assets/js/mediumish.js"></script>
+
+	
+
+	<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
+
+	
+	<script id="dsq-count-scr" src="//.disqus.com/count.js"></script>
+	
+
+    </body>
+</html>
