@@ -45,7 +45,36 @@ Office Hours: TBD
 
 ## 0.3. Course logistics
 	
-8 week course, 3 classes per week, 1 to 2 homework assignments per week, 2 quizzes, 1 final presentation, 2 extra credit assignments
+8 week course, 3 classes per week, 1 to 2 homework assignments per week, 2 quizzes, 1 final presentation, 2 extra credit assignments. An approximate course schedule is provide below (subject to change based on class progress and interests):
+
+| Week/ 	| Day/ 	| Topic/                                            	|
+|------	|-----	|--------------------------------------------------	|
+| 1    	| M   	| Introducing the course structure, learning goals 	|
+| 1    	| W   	| Intro to data visualization theory               	|
+| 1    	| F   	| Intro to data visualization theory continued     	|
+| 2    	| M   	| Intro to R, intro to ggplot                      	|
+| 2    	| W   	| Intro to spatial transcriptomics data (MERFISH)  	|
+| 2    	| F   	| Intro to spatial transcriptomics data (Visium)   	|
+| 3    	| M   	| Visualizing gene expression                      	|
+| 3    	| W   	| **Review and quiz**                                  	|
+| 3    	| F   	| Dimensionality reduction via PCA                 	|
+| 4    	| M   	| Dimensionality reduction via tSNE and UMAP       	|
+| 4    	| W   	| Clustering analysis via Kmeans                   	|
+| 4    	| F   	| Visualizing differential gene expression         	|
+| 5    	| M   	| Visualizing in space                             	|
+| 5    	| W   	| Visualizing time (RNA velocity and pseudotime)   	|
+| 5    	| F   	| Interactivity and animations                     	|
+| 6    	| M   	| Intro to mutation data (scDNA-seq)               	|
+| 6    	| W   	| Intro to epigenetic data (scatac-seq)            	|
+| 6    	| F   	| Intro to protein data (CITE-seq)                 	|
+| 7    	| M   	| Guest presentation: Brendan and Lyla             	|
+| 7    	| W   	| **Review and quiz**                                  	|
+| 7    	| F   	| Prepare class presentation                       	|
+| 8    	| M   	| Class presentation                               	|
+| 8    	| W   	| Class presentation                               	|
+| 8    	| F   	| Class presentation                               	|
+
+<br>
 
 ### 0.3.0. Grading
 
@@ -59,15 +88,15 @@ We rarely give out grades below a C and if you consistently submit work, partici
 Your final grade will be weighted as:
 - Homework: 40% 
 - Quizzes: 10%
-- Prepardness/attendance: 30%
+- Preparedness/attendance: 30%
 - Final presentation: 20%
 - 2 extra credit assignment opportunities to boost your grade up to 2%
 
 ### 0.3.1. Homework Assignments
 
-If you submit each assignment, it is your own work, and it meets a basic level of completeness and effort you will receive up to 100% for that assignment. If you submit an assignment but it doesn’t meet basic completeness and effort you will receive 50%. If you do not submit an assignment at all you will receive 0%. A 10% deduction will be made for every day an assignment is submitted late up to 3 days, after which the assignment will be no longer accepted and you will receive a 0%. 
+If you submit each assignment, it is your own work, and it meets a basic level of completeness and effort you will receive up to 100% for that assignment. If you submit an assignment but it doesn’t meet basic completeness and effort you will receive 50%. If you do not submit an assignment at all you will receive 0%. A 30% deduction will be made for every day an assignment is submitted late up to 3 days, after which the assignment will be no longer accepted and you will receive a 0%. 
 
-We will be turning in allassignments electronically through Github pull requests. Assignments must be submitted by midnight (electronic timestamp) on the due date for full credit. 
+We will be turning in all assignments electronically through Github. Assignments must be submitted by midnight (electronic timestamp) on the due date for full credit. 
 
 #### 0.3.1.0. Data Visualization Homework Assignments
 
@@ -127,7 +156,7 @@ If you are ill or suspect you have been exposed to a contagious illness, please 
 
 Students who are struggling with anxiety, stress, depression or other mental health related concerns, should consider connecting with resources through the JHU Counseling Center. The Counseling Center will be providing services remotely to protect the health of students, staff, and communities. Please reach out to get connected and learn about service options at 410-516-8278 and online.
 
-Please reach out to the course staff to inform them of your health-related absence as soon as possible so that we can best accomodate your absence. 
+Please reach out to the course staff to inform them of your health-related absence as soon as possible so that we can best accommodate your absence. 
 
 
 ## 0.7. Feedback, typos, and corrections
@@ -140,3 +169,9 @@ We also welcome feedback regarding the Code of Conduct and other Academic Polici
 ## 0.8 Attribution
 
 Portions of the above text are comprised of language from [Jeff Leek's 2020 course website for Advanced Data Science](http://jtleek.com/ads2020/) as well as Joshua Doloff and Jessica Dunleavey's 2021 course syllabus for Immunoengineering Principles and Application.  
+
+---
+
+## Additional resources
+- Slides for Lesson 0 - [genomic-data-visualization-Lesson_0.pptx (click to download)]({{ site.baseurl }}/assets/slides/lesson/genomic-data-visualization-Lesson_0.pptx)
+- Homework Assignment 0 - [genomic-data-visualization-HW_0.pptx (click to download)]({{ site.baseurl }}/assets/slides/hw/genomic-data-visualization-HW_0.pptx)
