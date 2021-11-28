@@ -1,7 +1,7 @@
 ---
 layout: profile
 name: Prof. Jean Fan
-avatar: '/assets/images/profiles/jeanfan.jpg'
+avatar: '/assets/profiles/jeanfan.jpg'
 email: jeanfan@jhu.edu
 web: https://jef.works
 github: https://github.com/JEFworks

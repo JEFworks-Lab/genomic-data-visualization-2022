@@ -1,13 +1,12 @@
 # Site
 name: "Genomic Data Visualization"
 title: "Genomic Data Visualization"
-description: "Welcome to the Course Website for 000.000 Genomic Data Visualization!
+description: "Welcome to the Course Website for EN.580.428 Genomic Data Visualization!
 <p>
-As the primary mode through which analysts and audience members alike consume data, data visualization remains an important hypothesis ge\
-nerating and analytical technique in data-driven research to facilitate new discoveries. However, if done poorly, data visualization can also mislead, bias, and slow down progress. This hands-on course will cover the principles of perception and cognition relevant for data visualization and apply these principles to genomic data, including large-scale single-cell and spatially-resolved omics datasets, using the R statistical programming language. Students will be expected to complete class readings, create weekly data visualizations as homework assignments, and make a major class presentation.
+As the primary mode through which analysts and audience members alike consume data, data visualization remains an important hypothesis generating and analytical technique in data-driven research to facilitate new discoveries. However, if done poorly, data visualization can also mislead, bias, and slow down progress. This hands-on course will cover the principles of perception and cognition relevant for data visualization and apply these principles to genomic data, including large-scale single-cell and spatially-resolved omics datasets, using the R statistical programming language. Students will be expected to complete class readings, create weekly data visualizations as homework assignments, and make a major class presentation.
 </p>"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: '/assets/images/logo.png'
+favicon: '/assets/images/logo.png'
 baseurl: '/genomic-data-visualization'
 google_analytics: ''
 include: ["_pages"]
