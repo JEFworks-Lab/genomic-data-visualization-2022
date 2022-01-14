@@ -158,6 +158,10 @@ Portions of the above text are comprised of language from [Jeff Leek's 2020 cour
 
 Our in-class hands-on component will focus on setting all students up with Github and practice homework submission procedures. 
 
+[genomic-data-visualization-HW_0.pptx (click to download)]({{ site.baseurl }}/resources/hw/genomic-data-visualization-HW_0.pptx)
+
+We will also install R and [RStudio](https://www.rstudio.com/) for the next class.
+
 ---
 
 # Class Lesson Notes 0
@@ -169,7 +173,5 @@ Notes from class will be uploaded here.
 # Homework Assignment 0
 
 If you did not finish in class, your homework assignment will be to create a Github account and make pull request with your self introduction (due Thursday).
-
-[genomic-data-visualization-HW_0.pptx (click to download)]({{ site.baseurl }}/assets/slides/hw/genomic-data-visualization-HW_0.pptx)
 
 If you did not finish in class, your additional homework assignment will be to install R and [RStudio](https://www.rstudio.com/) (due next class).

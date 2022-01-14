@@ -1,6 +1,7 @@
 ---
 layout: profile
 name: Prof. Jean Fan
+jhed: jfan9
 avatar: '/profiles/jeanfan.jpg'
 email: jeanfan@jhu.edu
 web: https://jef.works
