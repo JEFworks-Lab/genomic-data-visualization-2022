@@ -1,8 +1,8 @@
 ---
 layout: profile
-name: FirstName LastInitial
-jhed: JHED
+name: Christy Biji
+jhed: cbiji1@jh.edu
 avatar: '/profiles/samplestudent.jpg'
-description: "Tell the class something about you."
+description: "Master student in Chemical and Biomolecular Engineering"
 ---
 
