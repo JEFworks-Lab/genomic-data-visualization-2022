@@ -166,7 +166,7 @@ We will also install R and [RStudio](https://www.rstudio.com/) for the next clas
 
 # Class Lesson Notes 0
 
-Notes from class will be uploaded here.
+Prof. Fan's whiteboard notes from class: [genomic-data-visualization-classnotes-20220124.pdf (click to download)]({{ site.baseurl }}/resources/notes/genomic-data-visualization-classnotes-20220124.pdf)
 
 ---
 
@@ -174,4 +174,4 @@ Notes from class will be uploaded here.
 
 If you did not finish in class, your homework assignment will be to create a Github account and make pull request with your self introduction (due Thursday).
 
-If you did not finish in class, your additional homework assignment will be to install R and [RStudio](https://www.rstudio.com/) (due next class).
+To get a head start for next class, your additional homework assignment will be to install R and [RStudio](https://www.rstudio.com/) (due next class).
