@@ -1,8 +1,8 @@
 ---
 layout: profile
-name: Christy Biji
-jhed: cbiji1@jhu.edu
+name: sample student
+jhed: jhed
 avatar: '/profiles/samplestudent.jpg'
-description: "Master student in Chemical and Biomolecular Engineering."
+description: "Anything about you."
 ---
 
