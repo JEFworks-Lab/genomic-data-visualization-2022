@@ -76,6 +76,8 @@ If you submit each assignment, it is your own work, and it meets a basic level o
 
 We will be turning in all assignments electronically through Github. Assignments must be submitted by midnight (electronic timestamp) on the due date for full credit. 
 
+Be sure to follow submission instructions and double check that your submission appears on the course website appropriately. Submissions that do not follow submission instructions and introduce conflicts to the course website will be fixed but will result in a 5% grade reduction. 
+
 #### 0.3.1.0 Data Visualization Homework Assignments
 
 A part of this course will involve creating and describing data visualizations. For data visualization homework assignments, grades will be broken down according to the following characterization of your data visualization:
