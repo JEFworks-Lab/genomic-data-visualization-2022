@@ -67,9 +67,9 @@ Our in-class hands-on component will focus on introducing students to the R prog
 
 # Class Lesson Notes 1
 
-Prof. Fan’s whiteboard notes from class: [genomic-data-visualization-classnotes-20220126.pdf (click to download)](({{ site.baseurl }}/resources/notes/genomic-data-visualization-classnotes-20220126.pdf)
+Prof. Fan’s whiteboard notes from class: [genomic-data-visualization-classnotes-20220126.pdf (click to download)]({{ site.baseurl }}/resources/notes/genomic-data-visualization-classnotes-20220126.pdf)
 
-Prof. Fan’s code from class: [genomic-data-visualization-classnotes-20220126.pdf (click to download)](({{ site.baseurl }}/resources/code/inclass-plotting-20220226.R)
+Prof. Fan’s code from class: [inclass-plotting-20220226.R (click to download)]({{ site.baseurl }}/resources/code/inclass-plotting-20220226.R)
 
 ---
 
