@@ -61,7 +61,7 @@ Different data encodings for different data types offer differing levels of sali
 
 # Hands-on component 1
 
-Our in-class hands-on component will focus on introducing students to the R programming language, RStudio, and gaining experience with [ggplot](https://ggplot2.tidyverse.org/).
+Our in-class hands-on component will focus on introducing students to the R programming language, RStudio, and gaining experience with [ggplot2](https://ggplot2.tidyverse.org/).
 
 ---
 
@@ -69,5 +69,17 @@ Our in-class hands-on component will focus on introducing students to the R prog
 
 Notes from class will be uploaded here.
 
+---
+
+# Homework Assignment 1
+
+None. Complete Homework Assignment 0 if you have not done so yet. 
+
+---
+
+# Additional resources
+
+- [ggplot2 cheat sheet](https://www.rstudio.com/resources/cheatsheets/)
+- [Design of data figures by Bang Wong]({{ site.baseurl }}/readings/wong-nmeth-pointsofview.pdf)  
 
 
