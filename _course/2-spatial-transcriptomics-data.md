@@ -22,11 +22,11 @@ By the end of this lesson, we should understand what is spatially resolved trans
 
 ### Spatially resolved highly multiplxed transcriptomic imaging with MERFISH
 
-MERFISH is an imaging method capable of simultaneously measuring the copy number and spatial distribution of hundreds to thousands of RNA species in fixed cells. This technique was introduced in the paper *Chen et al. Spatially resolved, highly multiplexed RNA profiling in single cells. Science (2015)*
+MERFISH is an imaging method capable of simultaneously measuring the copy number and spatial distribution of hundreds to thousands of RNA species in fixed cells. This technique was introduced in the paper [*Chen et al. Spatially resolved, highly multiplexed RNA profiling in single cells. Science (2015)*]({{ site.baseurl }}/resources/readings/chen-et-al_science-aaa6090.pdf)
 
 ### Spatially resolved transcriptomic sequencing with Visium
 
-Visium is a commercial platform that uses glass slides with arrayed oligonucleotides containing positional barcodes to generate cDNA libraries with positional information for RNA sequencing. The technique was introduced in the paper *Stahl et al. Visualization and analysis of gene expression in tissue sections by spatial transcriptomics. Science (2016)* and later licensed to 10X Genomics for commercialization.
+Visium is a commercial platform that uses glass slides with arrayed oligonucleotides containing positional barcodes to generate cDNA libraries with positional information for RNA sequencing. The technique was introduced in the paper [*Stahl et al. Visualization and analysis of gene expression in tissue sections by spatial transcriptomics. Science (2016)*]({{ site.baseurl }}/resources/readings/stahl-et-al_science-aaf2403.pdf) and later licensed to 10X Genomics for commercialization.
 
 ---
 
@@ -38,7 +38,9 @@ Our in-class hands-on component will downloading and analyzing either a MERFISH 
 
 # Class Lesson Notes 2
 
-Notes from class will be uploaded here.
+Prof. Fan’s whiteboard notes from class: [genomic-data-visualization-classnotes-20220128.pdf (click to download)]({{ site.baseurl }}/resources/notes/genomic-data-visualization-classnotes-20220128.pdf)
+
+Prof. Fan’s code from class: [inclass-plotting-20220228.R (click to download)]({{ site.baseurl }}/resources/code/inclass-plotting-20220228.R)
 
 ---
 
@@ -47,4 +49,5 @@ Notes from class will be uploaded here.
 Read the original Chen et al and Stahl et al papers. Quiz next week may incorporate questions from these readings.
 
 Complete Homework Assignment 0 if you registered late. 
+
 
