@@ -25,5 +25,5 @@ Notes from class will be uploaded here.
 
 # Homework Assignment 4
 
-None. Complete Homework Assignment 3 if you have not done so yet. 
+Make a new data visualization of either the MERFISH or Visium dataset using ggplot in R (do not make the same visualizations that were made in class). Write a description of what you did using vocabulary terms from Lesson 1. Make a pull request to submit your homework (due Friday Midnight).
 

@@ -25,7 +25,7 @@ Notes from class will be uploaded here.
 
 # Homework Assignment 5
 
-You will be assigned to a data visualization made by one of your classmates. Write a critique using vocabulary terms from Lesson 1. Make a pull request to submit your homework (due Monday). 
+None. Complete Homework Assignment 4 if you have not done so yet.
 
 ---
 

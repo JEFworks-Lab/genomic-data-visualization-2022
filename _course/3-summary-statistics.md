@@ -42,6 +42,6 @@ Notes from class will be uploaded here.
 
 # Homework 3
 
-Make a new data visualization of either the MERFISH or Visium dataset using ggplot in R (do not make the same visualizations that were made in class). Write a description of what you did using vocabulary terms from Lesson 1. Make a pull request to submit your homework (due Thursday).
 
+None. Assignment and submission of Homework 3 will be pushed back one class to accomodate new students. For those less familiar with R and ggplot, please tinker and practice on your own so you will be ready to create data visualizations of either the MERFISH or Visium dataset using ggplot in R for your next homework. 
 
