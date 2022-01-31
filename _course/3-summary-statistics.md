@@ -36,7 +36,9 @@ Our in-class hands-on component will involve analyzing either the MERFISH or Vis
 
 # Class Lesson Notes 3
 
-Notes from class will be uploaded here.
+Prof. Fan’s whiteboard notes from class: [genomic-data-visualization-classnotes-20220131.pdf (click to download)]({{ site.baseurl }}/resources/notes/genomic-data-visualization-classnotes-20220131.pdf)
+
+Prof. Fan’s code from class: [inclass-plotting-20220131.R (click to download)]({{ site.baseurl }}/resources/code/inclass-plotting-20220131.R) 
 
 ---
 

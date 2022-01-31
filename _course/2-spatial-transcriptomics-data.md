@@ -40,7 +40,7 @@ Our in-class hands-on component will downloading and analyzing either a MERFISH 
 
 Prof. Fan’s whiteboard notes from class: [genomic-data-visualization-classnotes-20220128.pdf (click to download)]({{ site.baseurl }}/resources/notes/genomic-data-visualization-classnotes-20220128.pdf)
 
-Prof. Fan’s code from class: [inclass-plotting-20220228.R (click to download)]({{ site.baseurl }}/resources/code/inclass-plotting-20220228.R)
+Prof. Fan’s code from class: [inclass-plotting-20220128.R (click to download)]({{ site.baseurl }}/resources/code/inclass-plotting-20220128.R)
 
 ---
 
