@@ -13,11 +13,17 @@ By the end of this lesson, we should understand what is principal components ana
 
 # Hands-on component 4
 
-Our in-class hands-on component will analyzing either the MERFISH or Visium dataset to create a data visualization. We will also do an in-class demonstration of the homework submission process. 
+Our in-class hands-on component will involve analyzing either the MERFISH or Visium dataset using principal components analysis to create a data visualization. 
 
 ---
 
 # Class Lesson Notes 4
 
 Notes from class will be uploaded here.
+
+---
+
+# Homework Assignment 4
+
+Make a new data visualization of either the MERFISH or Visium dataset using ggplot in R (do not make the same visualizations that were made in class). Write a description of what you did using vocabulary terms from Lesson 1. Make a pull request to submit your homework (due Friday Midnight).
 
