@@ -29,7 +29,7 @@ Make a new data visualization of either the MERFISH or Visium dataset using ggpl
 
 [genomic-data-visualization-HW_1.pptx (click to download)]({{ site.baseurl }}/resources/hw/genomic-data-visualization-HW_1.pptx)
 
-Make a pull request to submit your homework (due Friday Midnight).
+Make a pull request to submit your homework (due Saturday Midnight).
 
-Please also install the `Rtsne` package for the hands-on component of the next class.
+Please also install the [`Rtsne` package](https://cran.r-project.org/web/packages/Rtsne/index.html) by running in `R` the command `install.packages('Rtsne')` for the hands-on component of the next class.
 
