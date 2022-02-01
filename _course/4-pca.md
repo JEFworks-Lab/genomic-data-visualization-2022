@@ -25,5 +25,11 @@ Notes from class will be uploaded here.
 
 # Homework Assignment 4
 
-Make a new data visualization of either the MERFISH or Visium dataset using ggplot in R (do not make the same visualizations that were made in class). Write a description of what you did using vocabulary terms from Lesson 1. Make a pull request to submit your homework (due Friday Midnight).
+Make a new data visualization of either the MERFISH or Visium dataset using ggplot in R (do not make the same visualizations that were made in class). Write a description of what you did using vocabulary terms from Lesson 1. See slides for more details on what is expected and how to submit your homework. 
+
+[genomic-data-visualization-HW_1.pptx (click to download)]({{ site.baseurl }}/resources/hw/genomic-data-visualization-HW_1.pptx)
+
+Make a pull request to submit your homework (due Friday Midnight).
+
+Please also install the `Rtsne` package for the hands-on component of the next class.
 
