@@ -19,7 +19,9 @@ Our in-class hands-on component will involve analyzing either the MERFISH or Vis
 
 # Class Lesson Notes 4
 
-Notes from class will be uploaded here.
+Prof. Fan’s whiteboard notes from class: [genomic-data-visualization-classnotes-20220202.pdf (click to download)]({{ site.baseurl }}/resources/notes/genomic-data-visualization-classnotes-20220202.pdf)
+
+Prof. Fan’s code from class: [inclass-plotting-20220202.R (click to download)]({{ site.baseurl }}/resources/code/inclass-plotting-20220202.R) 
 
 ---
 
@@ -32,4 +34,5 @@ Make a new data visualization of either the MERFISH or Visium dataset using ggpl
 Make a pull request to submit your homework (due Saturday Midnight).
 
 Please also install the [`Rtsne` package](https://cran.r-project.org/web/packages/Rtsne/index.html) by running in `R` the command `install.packages('Rtsne')` for the hands-on component of the next class.
+
 
