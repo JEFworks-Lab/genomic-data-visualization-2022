@@ -17,9 +17,11 @@ Our in-class hands-on component will analyzing either the MERFISH or Visium data
 
 ---
 
-# Class Lesson Notes 5
+# Class Lesson Notes 4
 
-Notes from class will be uploaded here.
+Prof. Fan’s whiteboard notes from class: [genomic-data-visualization-classnotes-20220204.pdf (click to download)]({{ site.baseurl }}/resources/notes/genomic-data-visualization-classnotes-20220204.pdf)
+
+Prof. Fan’s code from class: [inclass-plotting-20220204.R (click to download)]({{ site.baseurl }}/resources/code/inclass-plotting-20220204.R) 
 
 ---
 
@@ -32,3 +34,6 @@ None. Complete Homework Assignment 4 if you have not done so yet.
 # Additional resources
 - [Original paper by Laurens van de Maaten](https://lvdmaaten.github.io/publications/papers/JMLR_2008.pdf)
 - [Interactive explorer on how to use t-SNE effectively](https://distill.pub/2016/misread-tsne/)
+
+
+
