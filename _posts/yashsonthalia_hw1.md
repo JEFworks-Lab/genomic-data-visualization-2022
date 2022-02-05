@@ -10,7 +10,7 @@ featured: false
 
 I am making a visualization of the relationship between the spatial location (quantitative) and the expression (quantitative) of Aqp4, a common marker gene for astrocytes in the merfish dataset. The merfish dataset is composed of spatial transcriptomics data from the mouse brain. 
 
-The geometric primitive I used is points to depict each sample. I am also using the geometric primitive of areas to encode the positions of the astrocytes. Position is the visual channel encoded by the axes. 
+The geometric primitive I used is points to depict each sample. I am also using the geometric primitive of areas to highlight the positions of the astrocytes. Position is the visual channel encoded by the axes. 
 
 Aqp4 expression is encoded by color, which is the visual channel I used to depict which cells may be astrocytes. 
 
