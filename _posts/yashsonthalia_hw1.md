@@ -8,9 +8,11 @@ featured: false
 ---
 
 
-I am making a visualization of the relationship between the spatial location (quantitative) and the expression (quantitative) of Aqp4, a common marker gene for astrocytes. The geometric primitive is points, and position is the visual channel encoded by the axes. 
+I am making a visualization of the relationship between the spatial location (quantitative) and the expression (quantitative) of Aqp4, a common marker gene for astrocytes in the merfish dataset. The geometric primitive I used is points, and spatial position is the visual channel encoded by the axes. 
 
-Aqp4 expression is encoded by color, which is the visual channel I used. 
+Aqp4 expression is encoded by color, which is the visual channel I used to depict which cells may be astrocytes. 
+
+My visualization hopefully makes the distribution of astrocytes in the mouse brain more clear. 
 
 ```{r}
 library(tidyverse)
