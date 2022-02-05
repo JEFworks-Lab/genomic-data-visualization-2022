@@ -7,6 +7,11 @@ image: homework/hw1/yashsonthalia_hw1.png
 featured: false
 ---
 
+
+I am making a visualization of the relationship between the spatial location (quantitative) and the expression (quantitative) of Aqp4, a common marker gene for astrocytes. The geometric primitive is points, and position is the visual channel encoded by the axes. 
+
+Aqp4 expression is encoded by color, which is the visual channel I used. 
+
 ```{r}
 library(tidyverse)
 merfish=read.csv('/Users/yashsonthalia/Documents/JHUCourses/Spring2022/genomic-data-visualization/data/MERFISH_Slice2Replicate2_halfcortex.csv.gz',row.names = 1)
