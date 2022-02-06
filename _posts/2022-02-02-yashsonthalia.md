@@ -2,6 +2,7 @@
 layout: post
 title:  "Homework 1 Yash Sonthalia"
 author: Yash Sonthalia
+jhed: ssontha2
 categories: [ HW1 ]
 image: homework/hw1/yashsonthalia_hw1.png
 featured: false
