@@ -11,7 +11,7 @@ permalink: "/course.html"
 
     <div class="row"><div class="col-md-12">
 	<ul class="post-list-container">
-            {% assign items = site.course %}
+            {% assign items = site.course | sort: 'order' %}
             {% for post in items %}
             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}

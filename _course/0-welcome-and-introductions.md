@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "Lesson 0: Welcome and Introductions"
+order: 0
 ---
 
 # Lecture 0

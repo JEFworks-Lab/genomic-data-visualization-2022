@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "Lesson 4: Principal Components Analysis"
+order: 4
 ---
 
 # Lecture 4

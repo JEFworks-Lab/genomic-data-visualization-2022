@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "Lesson 5: T-distributed Stochastic Neighbor Embedding"
+order: 5
 ---
 
 # Lecture 5

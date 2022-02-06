@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "Lesson 1: Data Visualization Theory"
+order: 1
 ---
 
 # Lecture 1

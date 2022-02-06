@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "Lesson 2: Spatially Resolved Transcriptomic Data"
+order: 2
 ---
 
 # Lecture 2

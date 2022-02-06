@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "Lesson 3: Summary Statistics and QC Metrics"
+order: 3
 ---
 
 # Lecture 3
