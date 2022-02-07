@@ -20,7 +20,9 @@ Our in-class hands-on component will analyzing either the MERFISH or Visium data
 
 # Class Lesson Notes 6
 
-Notes from class will be uploaded here.
+Prof. Fan’s whiteboard notes from class: [genomic-data-visualization-classnotes-20220207.pdf (click to download)]({{ site.baseurl }}/resources/notes/genomic-data-visualization-classnotes-20220207.pdf)
+
+Prof. Fan’s code from class: [inclass-plotting-20220207.R (click to download)]({{ site.baseurl }}/resources/code/inclass-plotting-20220207.R) 
 
 ---
 
