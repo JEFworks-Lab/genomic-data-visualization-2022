@@ -1,1 +1,14 @@
+Data Visualization Evaluations
+
+Figure 4a
+
+In figure 4a, the data is relational data. The graph shows the relationship between gene expression of peripheral blood mononuclear cells reduced to two dimensions via UMAP (quantitative data) and the protocols with which the cells were prepared (categorical data).
+
+The geometric primitive used is a point. Each point represents one cell. 
+
+The authors use the visual channels of position and color, specifically hue. The positions on the x-axis and y-axis indicate the values of the two UMAP features. A different hue is assigned to each of the protocols for assaying the cells. The cells are colored orange for 5', purple for 3' V1, and green for 3' V2. 
+
+Through the data visualization and the figure caption, the authors were effective at communicating that the dimensionality reduction captures protocol specific variation from the gene expression data. None of the groupings of cells have cells with different protocols mixed together. However, the visualization shows groups that are not solely based on protocol variation. Each protocol has multiple groups and the positions of the groups do not seem tied to the protocols. I am not sure if I agree with the authors' statement from the text that "before integration, cells group primarily by [protocol]." The UMAP features do capture variation due to protocol, but I would simply state that protocol variation is present, not primary. While I am unsure that the data can support that the "cells group primarily by [protocol]", I do not think that specificity is necessary to prove the value of the authors' tool. The authors' communicate the important part of the point more effectively in the figure caption, which states "before integration, cells group by dataset."
+
+One change that could enhance saliency of the authors' point that cells are grouped by protocol or dataset could be to have a legend for the hues with the title "Protocols" or "Datasets". Currently, the explanation that 5', 3'V1, and 3'V2 are protocols is conveyed in the figure caption, but it could be included in the figure itself. Another option could be to change the title of the graph from "Before Integration" to "Before Integration Cells Groupe by Protocol". Changing the title would also make more salient that the points on the plo represent cells.
 
