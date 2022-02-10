@@ -1,0 +1,90 @@
+a: 
+1. data type that’s being visualized: quantitative data (gene expression data from 3 different data sets of human PBMC)
+2. The geometric primitives: points (each point stands for a cell)
+3. Visual channels used : color hues and position: 
+1) they used color hues to stress different dataset: in this article, dataset provided with different protocols in preparing before assaying.
+2) they use position information to stress the similarity between cell groups. Umap method is conducted in dimension reduction and visualization.
+
+4. Effective in showing: 
+This figure is effective in showing 2 points:
+1)If we focus on one protocol derived dataset, we could see 3 main clusters within the group, which indicates the diversity of cell types within each dataset.
+2)(*)If we examine among different dataset, we could see the protocol differences could result in great disturbances in data features. This pulls out the main problem the author wanted to solve: the variance brought by technical issues made it hard to integrate data from different datasets.
+
+
+b: 
+1. data type that’s being visualized: quantitative data (gene expression data from 3 different datasets of human PBMC)
+2. The geometric primitives: points (each point stands for a cell)
+3. Visual channels used : color hues and position: 
+1) they used color hues to stress different dataset: in this article, datasets provided with different protocols in preparing before assaying.
+2) they use position information to stress the similarity of cells. In this particular figure, the position information not only shows the information of similarity within cells from the same dataset to show the clusters and dispersion. But also, it shows the similarity among cells from different dataset.
+We could observe that the cells from different dataset remain similar subtypes or features after dimension reduction. The difference from protocols actually vanishes after Harmony.
+
+4.Effective in showing: 
+By comparison of a and b, we could see that the previously “grouped by dataset” manner turns out to be “grouped by gene expression features” manner, which is what the author stressed about success in integration of data from different datasets.
+
+c: 
+1. data type that’s being visualized: quantitative data (Proportion of cells of some cell type expressing a certain gene)
+2. The geometric primitives: points (each point stands for a groups of cells marked with certain cell type and cell marker)
+3. Visual channels used : color hues and position and size
+1) they used color hues to stress different source of the data: in this article, different protocols in preparing before assaying.
+2) they use position information to stress the cell group and corresponding cell marker for this group. X-coordinates indicates the cell group information and Y-coordinates indicates the cell marker information.
+3) they used size of the points to show the the percentage of cells expressing a cell marker among one cell type from one specific dataset.
+4) Also on the top, we saw 6 blocks (or bold lines) with different color hues to show the grouping information by cell types. There listed 4 T cell types and 2 B cell types.
+
+4. Effective in showing: 
+If we focus on one cell type from different dataset (in this figure, 3 neighbor columns), we noticed similar distributions of cell markers expression. Through this visualization method, we could see that the “Harmony” does cluster cells into categories which shows consistency with the canonical biological  markers.
+
+
+d: 
+1. data type that’s being visualized: quantitative data (gene expression data from 3 different data sets of human PBMC)
+2. The geometric primitives: points (each points stands for a cell)
+3. Visual channels used : color hues and position 
+1) they used color hues to show the cell type information as labeling 
+2) they used the position information in the Umap to stress the similarity between cells within one type and across different types after dimension reduction.
+
+4. Effective in showing: 
+This figure shows cells from all three datasets clustered by marker gene expression levels. But we lose information about the initial dataset where the cells belong to.
+
+
+Potential ways to enhance saliency :
+
+1.For figure a:
+
+1) I feel that this three colors chosen to mark different groups are “green”,”orange” and “purple”, which are not that distinguishable especially when you mix them together. In the color palette, we can get green by mixing orange and verdant. 
+
+Could be better if we choose red, green and blue with less overlapping in spectrum.
+
+2) Since we see few discrete points in this plot, most of the cells form clusters. We could possibly draw a circle around the clusters to make it more saliently perceived as a group. (by enclosure principle)
+
+
+2.For figure b:
+We noticed that the purple dots are way less than green and orange ones, potentially because the sample size are different (only 4809 cells in purple while 7697 in orange and 8380 in green). Thus, the pattern of purple points are covered by other 2 colors.
+
+Based on this concern, I believe that it may be better to plot an “After Harmony Integration” plot for each dataset. And beside that, put an integration of these 3 plots (as figure b). By doing so, we could acquire both the information of each clustering pattern and the overlapping status among them.
+
+
+2. For figure c:
+Figure C actually shows 3-dimensional information which is informative but I feel it’s a little bit hard to compare the size. 
+
+1)If we transform this plot into a piled-up bar plot with the lengths represent the percentage of cells expressing each gene and we color them with different hues to mark distinct genes for one sample, that is to say, form color blocks.
+
+In this way, I feel like it’s better because we use length as a data encoding form for a quantitative data, which is more salient than area. 
+
+2)Follow the same logic, we could pack columns more closer to each other within the same cell type. 
+
+Here we are using the “Proximity” principle. In the original data visualization, the distance between each column is the same regardless of cell type. If we transform this into 3-columns per unit and thus form small subgroups for each cell type, we would potentially get stronger comparison across datasets and make it easier to read.
+
+
+3.For figure d:
+
+In figure d, we actually lose the information of the dataset. But If we do single clustering for each dataset (5’, 3’V1, 3’V2) with harmony method (as suggested in 1), we can observe in figure d, if one dataset is more abundant in certain cell type or lacking certain cell type.
+
+Over all, there is a lot to take away: 
+
+1.I learned from figure c about how to present high dimensional information in one plot without being too busy to perceive it.
+2.I really like the way to label different cell types in figure d, where the colors of points and labels for certain groups are consistent.
+
+
+ 
+
+
