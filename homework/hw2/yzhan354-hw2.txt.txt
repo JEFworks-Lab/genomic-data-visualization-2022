@@ -1,0 +1,29 @@
+1.
+1) The first image visualizes UMAP 1 and UMAP 2 scores of the cells which are quantitative data. It also visualizes the assay protocols for cells which is categorical data. 
+2) The image uses points as geometric primitives to represent cells. 
+3) The color (hue) visual channel is used to encode the assay protocols of cells. 
+4) In the paper, the authors aim to make it more salient that the UMAP algorithm group cells based on their assay protocols. They effectively represent this with the Gestalt principle of similarity and position. The cells of the same color are more likely to be perceived as being in the same group, and the cells that are closer to each other in the 2D plan are also more likely to be perceived as being in the same group. Since cells with the same color are grouped together in the image, it shows the alignment between UMAP grouping and cell assay protocol groups. Also, the labels are encoded with the same color as the cells in the image, which shows the protocol group more clearly. So the goal is achieved effectively. 
+5) Since the green cells (3'V2) and purple cells (3'V1) are not that far from each other, to make it more salient that the cells are grouped mainly by assay protocols, we could add an outline enclosing the green cells. This uses the Gestalt principle of enclosures to make it more salient that cells are in the same group. 
+
+2. 
+1) The second image visualizes UMAP 1 and UMAP 2 scores of the cells which are quantitative data. It also visualizes the assay protocols for cells which is categorical data. 
+2) The image uses points as geometric primitives to represent cells. 
+3) The color (hue) visual channel is used to encode the assay protocols of cells. 
+4) In the paper, the authors aim to make it more salient that after Harmony integration, the cell data are mixed under UMAP algorithm. This is effectively made more salient with the Gestalt principle of similarity and position. The cells of the same color are more likely to be perceived as being in the same group, and the cells that are closer to each other in the 2D plan are also more likely to be perceived as being in the same group. Since the cells of different colors are close together in the same group, this shows that cells are no longer grouped by assay protocols. The image effectively shows that cells are mixed together. 
+5) We might use three colors (hue) that are more different from each other for the three cell groups. This can make it more salient that we originally have 3 different assay protocol groups and create higher contrast with the current grouping, demonstrating the information that authors try to convey clearer. 
+We might consider using the Kmeans clustering algorithm to have 4 clusters of cells based on UMAP 1 and 2. Then for each cluster, we add pie charts to show the distribution of three cell types. This can use area geometric primitives and color (hue) visual channels to show that cells are evenly distributed in each clustering group.
+
+3. 
+1) The third image visualizes the percentage of expression of certain markers in several cell types in three assay protocol groups. This percentage is quantitative data. It also visualizes the assay protocols for cells which is categorical data. It also visualizes the cell types which are categorical data. 
+2) The image uses areas as geometric primitives to represent percentages. 
+3) The color (hue) visual channel is used to encode the assay protocols of cells. The color (saturation) visual channel is used to also encode percentage. 
+4) The authors aim to make it more salient that cells of the same type can have a similar pattern of gene expression of canonical markers. The authors use the Gestalt principle of proximity to represent cells of the same type. The cells of the same type are close to each other on the graph. The authors use the Gesalt principle of similarity to show cells of the same color are from the same assay protocol. The difference in saturation and area together show the difference in gene expression patterns in cells of different types. However, the different cell groups are not that separated making it a bit hard to interpret the graph. The label also didn't talk about the meaning of difference in saturation, making the image less effective. 
+5)
+We should show the meaning of area and saturation in the labels. We should separate each cell type farther from each other to utilize the proximity principle to show the difference between cell types. 
+
+4. 
+1) The fourth image visualizes UMAP 1 and UMAP 2 scores of the cells which are quantitative data. It also visualizes the cell types which is categorical data. 
+2) The image uses points as geometric primitives to represent cells. 
+3) The color (hue) visual channel is used to encode the assay protocols of cells. 
+4) In the paper, the author aims to make it more salient that after Harmony integration, the cell data are clustered in the UMAP algorithm based on their biological cell type property. They effectively represent this with the Gestalt principle of similarity and position. The cells of the same color are more likely to be perceived as being in the same group, and the cells that are closer to each other in the 2D plan are also more likely to be perceived as being in the same group. Since cells with the same color are grouped together in the image, it shows the alignment between UMAP grouping and cell-type groups.
+5) We could consider removing the labels in the graph and adding a legend for cell types separately. This way there will be more empty spaces in the 2D plane to show the distance between cell groups to make the demonstration of cell group difference by cell type more salient.  
