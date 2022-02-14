@@ -144,8 +144,10 @@ p <- ggplot(df, mapping = aes(x=fcs, y=pvs)) +
   geom_point() 
 p
 ## volcano plot
-p + geom_label(mapping = aes(label = name))
+p + geom_label(mapping = aes(label = name)) + theme_classic()
 ## only label significant things with high fold?
+
+
 
 
 
