@@ -47,3 +47,4 @@ collections:
   course:
     permalink: /course/:title/
     output: true
+theme: jekyll-theme-cayman
