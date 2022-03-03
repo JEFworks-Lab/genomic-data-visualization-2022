@@ -1,0 +1,11 @@
+Paper url: https://www.cell.com/cell/fulltext/S0092-8674(18)31100-0
+Figure: Figure 3B
+Writeup: 
+Why did the authors caryy out the study?
+What did the authors do?
+What did the authors find out?
+How did the authors visualize their result?
+What data principles did they apply?
+What do you think was effective in the way the author made this data visualization? Why?
+How could the original author improve this data visualization?
+The authors could improve this data visualization by using more distinct pairs of hues to encode the z-scores and type of cells. The authors use red and blue to encode the postive and negative z-scores respectively. And they use orange and blue to differentiate immune and tumor cells. The Esalt principle of similarity would lead the reader to believe that at least the things that are both colored blue would be related and maybe even the read and orange data because the hues are similar in warmth. However, the negative z-scores to do not correspond to the immune cells and the positive z-scores do not correspond to the tumor cells. There is no correlation between the z-scores and the cell types. Positive z-scores can identify cell clusters, but the cluster identity is determined by canonical protein markers.  
