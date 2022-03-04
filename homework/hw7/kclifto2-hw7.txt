@@ -1,0 +1,36 @@
+Paper url: https://www.cell.com/cell/fulltext/S0092-8674(18)31100-0
+Figure: Figure 3B
+Writeup: 
+
+Why did the authors carry out the study?
+
+The authors were interested in understanding the spatial organization of cells in the tumor-immune microenvironment. Particularly for Figure 3B, the authors wanted to know if the spatial organization that they could inspect visually through imaging could be observed as enrichment of spatial proximity of protein markers. In other words, can it be quantified that some proteins are expressed more proximal to certain proteins than they are proximal to other proteins and does that match the organization of the cells for which these proteins are markers? 
+
+What did the authors do?
+
+The authors developed a method to quantify, for any proteins A and B, if cells expressing protein A have a higher proximity to cells expressing protein B than the proximity if all cells were dispersed randomly. First, from many different ways that cells can be randomly organized the authors generated a null distribution for the distance between the cells expressing protein A and cells expressing protein B. Then, the authors compared the real distance to the distribution to calculate a z-score for a protein A and B pair.
+Z-scores were calculated for many protein pairs for two patient tumor-immune microenvironments. Z-scores were visualized using heat maps. 
+
+Additionally, authors pseudo-colored images of the tumor-immune microenvironment for each patient to distinguish tumor and immune cells. Cell identity as immune or not immune was determined by 16 canonical markers (CD45, FoxP3, CD4, CD8, CD3, CD20, CD16, CD68, MPO, HLA-DR, Pan-Keratin, Keratin17, Keratin6, p53, Beta catenin, EGFR).
+
+What did the authors find out?
+
+The authors discovered that for tissues that had physical separation of immune and tumor cells, the corresponding spatial analysis showed two clusters of high z-scores. Conversely, no clusters were identified in heatmaps corresponding to tissues that had well-mixed immune and tumor cells. 
+
+How did the authors visualize their result? What data principles did they apply?
+
+For each patient, the authors visualized the z-scores for pairs of proteins as a heatmap. The heatmap shows relational data, quantitative part is the z-score value and the categorical part is the names of the proteins for which the z-score was calculated. The geometric primitive used is area with the visual channels of position and color. The postion on the bottom axis indicates one of the proteins in the pair, the position on the right axes indicates the other protein in the pair. The value of the z-score is encoded as red to blue spectrum. A z-score of 20 is encoded as red and the saturations decreases to white as the z-score decreases to 0. A z-score of -20 is encoded as blue and the saturations decreases to white as the z-score increases to 0. The authors used the Gesalt principle of similarity such that areas with similar hues and saturations have similar z-score values.
+
+For the spatial enrichment that exhibited clusters the authors also labeled how the clusters corresponded to cell type.  The authors used the Gesalt principle of enclosure by drawing boxes around the two clusters to identify them from the rest of the area of the heatmap. Also, the authors used the Gesalt principle of similiarity in coloring the boxes blue and orange to match the colors used in the pseudo-colored images of the tumor-immune microenvironment. 
+
+What do you think was effective in the way the author made this data visualization? Why?
+
+I think the authors were effective in showing that the tissues with compartmentalized tumor-immune microenvironment corresponded clustering in the protein proximity analysis and the tissue with little structure corresponded to no clusters. They used two prototypical patients to demonstrate these two outcomes and arranged the four images to make this point salient.
+
+How could the original author improve this data visualization?
+
+The authors could improve this data visualization by using more distinct pairs of hues to encode the sign of the z-scores and two classes of cells. The authors use red and blue to encode the postive and negative z-scores, respectively. And they use orange and blue to differentiate immune and tumor cells. The Gesalt principle of similarity would lead the reader to believe that at least the all data colored blue would be related and maybe even the red and orange data would be related to each other because those two hues are similar in warmth. However, the blue negative z-scores to do not correspond to the blue immune cells and the red positive z-scores do not correspond to the orange tumor cells. There is no correlation between the z-scores and the cell types. Positive z-scores can identify cell clusters, but the cluster identity is determined by canonical protein markers.  The authors could continue to use red and blue to encode the postive and negative z-scores in the heat maps and switch to another set of hues, such as yellow and purple, to label the immune and tumor cells in the tissue samples.
+
+Another way the author could improve the data visualization is to standardize the order of the proteins on the heat map axes. Currently, the order varies not only between the two heat maps of each patient, but also between the two axes within each heatmap. It is really important to standardize the list on each axes within a heat map because the reader expects the diagonal to be where the labels on both axes correspond to the same entry, which in this case is a protein name. If the proteins were listed in the same order for each patient heat map, then it would enhance the reader's understanding that the difference in the heatmaps are due to variation from the biological organization in the tissue not the author's organization of the data. 
+
+Furthermore, if the canonical protein markers that are used to apply the pseudo coloring of immune and tumor cells are in the list of proteins used on the heatmap axes, they could be identified on the axes using the same coloring or if there are many canonical protein markers they could be enclosed in a grouping with a colored outline.
