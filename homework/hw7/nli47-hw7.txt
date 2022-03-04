@@ -1,0 +1,39 @@
+Paper url: https://www.nature.com/articles/s41593-020-00787-0
+Figure: Figure 3
+Writeup: 
+
+## Why did the authors carry out this study?
+
+This article focuses on Transcriptome-scale spatial gene expression in the human dorsolateral prefrontal cortex(DLPFC) using the visium method.
+Better characterization of cell types that make up the brain, and ultimately link functional correlates of individual cell classes with structural architecture will help us understand normal brain development as well as disorders of the central nervous system.
+
+
+## What did they do?
+
+Its main idea is to identify extensive layer-enriched expression signatures in the DLPFC region and refine associations to previous laminar markers. The authors collected brain samples from 3 adult donors and from each donor, get 2 pairs of adjacent tissue sections in the DLPFC region (ended up with 12 samples to run on Visium platform). 
+
+They sequenced each sample to a median depth of 291.1×10^6 reads, which corresponded to a mean of 3,462 unique molecular identifiers (UMIs) and a mean of 1,734 genes per spot.
+
+## What did they find out? And how they visualize the data?
+
+(What did they find out in Figure3: Visium replicates layer enrichment of previously identified layer-marker genes.)
+
+The left column: To visualize the layer-distinct gene markers, the author used the boxplots to show the average log counts of canonical marker genes in each layers. Some of theses genes, such as CCK and ENC1, are previously annotated to multiple layers, which is consistent with what is found in this paper. We could see abundant and continuous expression of CCK and ENC1 across layers. They also identified FABP7 and PVALB, which were not classified as being layer markers, showed layer enriched expression in their data. (In figure 3, we could tell that FABP7 is enriched in layer1 and PVALB is enriched in layer4). They used the principles of proximity to show the continuity of layers physically. I also like the way how boxplot shows both the median and variance within groups, since we have 12 samples per group and it is helpful to appreciate how disturbances can happen within tissue sections from the same donor and across different donors.
+
+The middle column is the spotplot showing the spatial distributions of these specific marker genes. It uses point and hues as geometric primitive and visual channel, which further convinces me in the layer-distinct distribution pattern of certain genes. They used the principles of similarity in hues to show groups of similar gene expression level. This figure is a complement to the left column and provides a more intuitive way of position based imaging which is effective in showing possible structures underlying gene expressions. 
+
+The right column shows ISH images from temporal cortex (a and d), DLPFC (b) or visual cortex (c) of adult human brain from the Allen Human Brain Atlas,(http://human.brain-map.org) which I believe support their findings in the protein expression level. In this column, they used in situ hybridization to stress the distribution of protein expression, where dark parts (indicates high expression of this protein) form band-like structures, consistent with the laminar distribution shown in the left 2 columns. They also used the principles of similarity in saturation(gray to black) to show groups with similar protein expression levels in this column. 
+
+
+I like this figure because it is a good integration of different data sources and representation methods. 
+The authors stressed the relative expression and statistics guided understanding of data in the left column, and switched to spatial locations to make it more salient in real structures. In the right column, the author integrated the data from other related sources for further confirmation of their finding.
+And overall, it made some critiques on previously identified layer-marker genes and proposed new candidates based on Visium data.
+
+
+This article is successful in showing that structure entrains function, and function could be partially inferred by gene expression. And spatially resolved transcriptome is a good tool to bridge gene expression and spatial structures.
+
+## For some possible improvement:
+
+For the very left column, I think it would be helpful to add statistical analysis and label the p.values together with the boxplots since it tells if this gene is significantly expressed.
+
+For the spotplots of Visium data in the middle, I think generally it's good but could be better if the authors label the "layers" in the plot. Since their conclusion is wrapping up on layers, rather than grouping with naked eye, it will be helpful to label the layers since it's known knowledge.
