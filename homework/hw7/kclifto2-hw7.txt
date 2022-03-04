@@ -1,11 +1,31 @@
 Paper url: https://www.cell.com/cell/fulltext/S0092-8674(18)31100-0
 Figure: Figure 3B
 Writeup: 
-Why did the authors caryy out the study?
+Why did the authors carry out the study?
+
+The authors were interested in understanding the spatial organization of cells in the tumor-immune microenvironment.
+
 What did the authors do?
+
+The authors developed a method to quantify, for any proteins A and B, if cells expressing protein A have a higher proximity to cells expressing protein B than the proximity if all cells were dispersed randomly. First, from many different ways that cells can be randomly organized the authors generated a null distribution for the distance between the cells expressing protein A and cells expressing protein B. Then, the authors compared the real distance to the distribution to calculate a z-score for a protein A and B pair.
+Z-scores were calculated for many protein pairs for two patient tumor-immune microenvironments. Z-scores were visualized using heat maps. 
+
+Additionally, authors pseudo-colored images of the tumor-immune microenvironment for each patient to distinguish tumor and immune cells. Cell identity as immune or not immune was determined by 16 canonical markers (CD45, FoxP3, CD4, CD8, CD3, CD20, CD16, CD68, MPO, HLA-DR, Pan-Keratin, Keratin17, Keratin6, p53, Beta catenin, EGFR).
+
 What did the authors find out?
+
+
+
 How did the authors visualize their result?
 What data principles did they apply?
 What do you think was effective in the way the author made this data visualization? Why?
+
+
+
 How could the original author improve this data visualization?
-The authors could improve this data visualization by using more distinct pairs of hues to encode the z-scores and type of cells. The authors use red and blue to encode the postive and negative z-scores respectively. And they use orange and blue to differentiate immune and tumor cells. The Esalt principle of similarity would lead the reader to believe that at least the things that are both colored blue would be related and maybe even the read and orange data because the hues are similar in warmth. However, the negative z-scores to do not correspond to the immune cells and the positive z-scores do not correspond to the tumor cells. There is no correlation between the z-scores and the cell types. Positive z-scores can identify cell clusters, but the cluster identity is determined by canonical protein markers.  
+
+The authors could improve this data visualization by using more distinct pairs of hues to encode the sign of the z-scores and two classes of cells. The authors use red and blue to encode the postive and negative z-scores, respectively. And they use orange and blue to differentiate immune and tumor cells. The Gesalt principle of similarity would lead the reader to believe that at least the all data colored blue would be related and maybe even the red and orange data would be related to each other because those two hues are similar in warmth. However, the blue negative z-scores to do not correspond to the blue immune cells and the red positive z-scores do not correspond to the orange tumor cells. There is no correlation between the z-scores and the cell types. Positive z-scores can identify cell clusters, but the cluster identity is determined by canonical protein markers.  The authors could continue to use red and blue to encode the postive and negative z-scores in the heat maps and switch to another set of hues, such as yellow and purple, to label the immune and tumor cells in the tissue samples.
+
+Another way the author could improve the data visualization is to standardize the order of the proteins on the heat map axes. Currently, the order varies not only between the two heat maps of each patient, but also between the two axes within each heatmap. It is really important to standardize the list on each axes within a heat map because the reader expects the diagonal to be where the labels on both axes correspond to the same entry, which in this case is a protein name. If the proteins were listed in the same order for each patient heat map, then it would enhance the reader's understanding that the difference in the heatmaps are due to variation from the biological organization in the tissue not the author's organization of the data. 
+
+Furthermore, if the canonical protein markers that are used to apply the pseudo coloring of immune and tumor cells are in the list of proteins used on the heatmap axes, they could be identified on the axes using the same coloring or if there are many canonical protein markers they could be enclosed in a grouping with a colored outline.
