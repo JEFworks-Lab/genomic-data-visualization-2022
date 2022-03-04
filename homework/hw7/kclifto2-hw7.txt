@@ -1,9 +1,10 @@
 Paper url: https://www.cell.com/cell/fulltext/S0092-8674(18)31100-0
 Figure: Figure 3B
 Writeup: 
+
 Why did the authors carry out the study?
 
-The authors were interested in understanding the spatial organization of cells in the tumor-immune microenvironment.
+The authors were interested in understanding the spatial organization of cells in the tumor-immune microenvironment. Particularly for Figure 3B, the authors wanted to know if the spatial organization that they could inspect visually through imaging could be observed as enrichment of spatial proximity of protein markers. In other words, can it be quantified that some proteins are expressed more proximal to certain proteins than they are proximal to other proteins and does that match the organization of the cells for which these proteins are markers? 
 
 What did the authors do?
 
@@ -14,13 +15,17 @@ Additionally, authors pseudo-colored images of the tumor-immune microenvironment
 
 What did the authors find out?
 
+The authors discovered that for tissues that had physical separation of immune and tumor cells, the corresponding spatial analysis showed two clusters of high z-scores. Conversely, no clusters were identified in heatmaps corresponding to tissues that had well-mixed immune and tumor cells. 
 
+How did the authors visualize their result? What data principles did they apply?
 
-How did the authors visualize their result?
-What data principles did they apply?
+For each patient, the authors visualized the z-scores for pairs of proteins as a heatmap. The heatmap shows relational data, quantitative part is the z-score value and the categorical part is the names of the proteins for which the z-score was calculated. The geometric primitive used is area with the visual channels of position and color. The postion on the bottom axis indicates one of the proteins in the pair, the position on the right axes indicates the other protein in the pair. The value of the z-score is encoded as red to blue spectrum. A z-score of 20 is encoded as red and the saturations decreases to white as the z-score decreases to 0. A z-score of -20 is encoded as blue and the saturations decreases to white as the z-score increases to 0. The authors used the Gesalt principle of similarity such that areas with similar hues and saturations have similar z-score values.
+
+For the spatial enrichment that exhibited clusters the authors also labeled how the clusters corresponded to cell type.  The authors used the Gesalt principle of enclosure by drawing boxes around the two clusters to identify them from the rest of the area of the heatmap. Also, the authors used the Gesalt principle of similiarity in coloring the boxes blue and orange to match the colors used in the pseudo-colored images of the tumor-immune microenvironment. 
+
 What do you think was effective in the way the author made this data visualization? Why?
 
-
+I think the authors were effective in showing that the tissues with compartmentalized tumor-immune microenvironment corresponded clustering in the protein proximity analysis and the tissue with little structure corresponded to no clusters. They used two prototypical patients to demonstrate these two outcomes and arranged the four images to make this point salient.
 
 How could the original author improve this data visualization?
 
