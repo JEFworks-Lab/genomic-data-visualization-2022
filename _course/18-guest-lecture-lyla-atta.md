@@ -10,6 +10,8 @@ order: 18
 
 Lyla Atta will be giving a guest lecture on her research.
 
+Lyla's lecture slides [genomic-data-visualization-classnotes-20220307-LA.pdf (click to download)]({{ site.baseurl }}/resources/notes/genomic-data-visualization-classnotes-20220307-LA.pdf)
+
 ---
 
 # Hands-on component 18
