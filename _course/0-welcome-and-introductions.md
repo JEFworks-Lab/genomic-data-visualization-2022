@@ -57,10 +57,10 @@ Virtual Office Hours: Fridays after class and by appointment. Location: Zoom.
 ### 0.3.0 Grading
 
 We believe the primary purpose of an education is to train you to be able to think for yourself and initiate and complete your own projects. We are super excited to talk to you about ideas, work out solutions with you, and help you to figure out how to produce professional data visualizations. We aim to give you a grade that best reflects our assessment of your effort and learning with:
-- A+ == Phenomenal == 100%+
-- A == Excellent == 90%+
-- B == Passing == 80%+
-- C == Needs improvement == 70%+
+- A+ == Phenomenal
+- A == Excellent
+- B == Passing
+- C == Needs improvement
 
 We rarely give out grades below a C and if you consistently submit work, participate in discussions, and do your best you are very likely to get an A or a B in the course.
  
